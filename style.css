@@ -1,0 +1,71 @@
+/*
+ * NCCU College of Commerce Theme
+ * Primary Color: #193C6A (Dark Blue)
+ * Accent Color: #2A65B1 (Lighter Blue)
+ */
+
+/* --- General Style Overrides --- */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* --- Navbar --- */
+.navbar.bg-primary-nccu {
+    background-color: #193C6A !important;
+}
+
+.navbar.bg-primary-nccu .navbar-brand,
+.navbar.bg-primary-nccu .nav-link {
+    color: #ffffff !important;
+}
+
+.navbar.bg-primary-nccu .nav-link.active,
+.navbar.bg-primary-nccu .nav-link:hover {
+    color: #dddddd !important;
+}
+
+/* --- Hero Section (index.html) --- */
+.hero-section {
+    background-color: #193C6A;
+    color: white;
+}
+
+/* --- Page Header (courses.html) --- */
+.page-header {
+    background-color: #f8f9fa; /* Bootstrap light gray */
+    border-bottom: 1px solid #dee2e6;
+}
+
+.page-header h1 {
+    color: #193C6A;
+}
+
+/* --- Buttons --- */
+.btn-primary {
+    background-color: #193C6A;
+    border-color: #193C6A;
+}
+
+.btn-primary:hover {
+    background-color: #2A65B1;
+    border-color: #2A65B1;
+}
+
+/* --- Links --- */
+a {
+    color: #193C6A;
+}
+
+a:hover {
+    color: #2A65B1;
+}
+
+/* --- Card & Table --- */
+.card-title {
+    color: #193C6A;
+}
+
+.table thead {
+    background-color: #193C6A !important;
+    color: white;
+}
