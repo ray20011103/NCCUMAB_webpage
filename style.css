@@ -9,6 +9,12 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+h2, h3 {
+    color: #193C6A;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
 /* --- Navbar --- */
 .navbar.bg-primary-nccu {
     background-color: #193C6A !important;
@@ -58,6 +64,31 @@ a {
 
 a:hover {
     color: #2A65B1;
+}
+
+/* --- Advantage Cards (index.html) --- */
+.advantage-card {
+    padding: 2rem;
+    border: 1px solid #e9ecef;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.advantage-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.advantage-card i {
+    color: #193C6A;
+}
+
+.advantage-card h4 {
+    color: #193C6A;
+    font-weight: bold;
+    margin-top: 1rem;
 }
 
 /* --- Card & Table --- */
