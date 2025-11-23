@@ -9,11 +9,15 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-h2, h3 {
+h2, h3, h5, h6 {
     color: #193C6A;
     font-weight: bold;
+}
+
+h2, h3 {
     margin-bottom: 1rem;
 }
+
 
 /* --- Navbar --- */
 .navbar.bg-primary-nccu {
@@ -91,6 +95,28 @@ a:hover {
     margin-top: 1rem;
 }
 
+/* --- Course Page --- */
+.card {
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.info-section {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.info-section h6 i {
+    color: #2A65B1;
+}
+
 /* --- Card & Table --- */
 .card-title {
     color: #193C6A;
@@ -99,4 +125,7 @@ a:hover {
 .table thead {
     background-color: #193C6A !important;
     color: white;
+}
+.table-responsive {
+    margin-top: 1rem;
 }
