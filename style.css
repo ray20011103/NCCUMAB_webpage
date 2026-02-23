@@ -70,6 +70,11 @@ a:hover {
     color: #2A65B1;
 }
 
+/* --- Utilities --- */
+.text-primary {
+    color: #193C6A !important;
+}
+
 /* --- Advantage Cards (index.html) --- */
 .advantage-card {
     padding: 2rem;
